@@ -1,12 +1,11 @@
-n=int(input())
-lst=[]
+n = int(input())
+lst = []
 
 for _ in range(n):
-    age,name=input().split()
-    lst.append((int(age),name))
+    age, name = input().split()
+    lst.append((int(age), name))
 
-lst.sort(key=lambda x:(x[0]))
+lst.sort(key=lambda x: (x[0]))
 
 for l in lst:
-    print(l[0],l[1])
-
+    print(l[0], l[1])
