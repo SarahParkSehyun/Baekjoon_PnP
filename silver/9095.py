@@ -14,3 +14,5 @@ def dp(num):
 for i in range(n):
     num=int(input())
     print(dp(num))
+
+# -3 위치에서의 합 + -2 위치에서의 합 + -1 위치에서의 합
