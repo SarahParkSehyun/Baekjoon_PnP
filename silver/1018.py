@@ -23,3 +23,5 @@ for i in range(n - 7):
         result = min(result, min(cnt1, cnt2))
 
 print(result)
+
+
